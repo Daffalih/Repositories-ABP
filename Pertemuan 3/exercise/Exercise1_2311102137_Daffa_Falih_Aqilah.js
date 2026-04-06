@@ -1,4 +1,4 @@
-// mohammad nizal maulana - 2311102150
+// Daffa Falih Aqilah - 2311102137
 function sumOdd(min, max) {
     let total = 0;
     let deret = [];
