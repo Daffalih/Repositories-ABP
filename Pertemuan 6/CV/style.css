@@ -1,0 +1,64 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background: #eaeaea;
+}
+
+.container {
+    width: 900px;
+    margin: 20px auto;
+    display: flex;
+    background: white;
+}
+
+/* SIDEBAR */
+.sidebar {
+    width: 30%;
+    background: #1f2a36;
+    color: white;
+    padding: 25px;
+}
+
+.profile {
+    width: 120px;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+.sidebar h2 {
+    text-align: center;
+}
+
+.sidebar h3 {
+    margin-top: 20px;
+    border-bottom: 1px solid white;
+}
+
+.sidebar ul {
+    padding-left: 18px;
+    font-size: 13px;
+}
+
+.ringkasan {
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+/* CONTENT */
+.content {
+    width: 70%;
+    padding: 25px;
+}
+
+.content h1 {
+    border-bottom: 2px solid #1f2a36;
+}
+
+.card {
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    margin: 0;
+}
