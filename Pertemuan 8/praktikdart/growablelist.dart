@@ -10,9 +10,9 @@ void main() {
 
   List<String> listNama = [];
 
-  listNama.add("Dhimas");
-  listNama.add("Hafizh");
-  listNama.add("Fathur");
+  listNama.add("Daffa");
+  listNama.add("Falih");
+  listNama.add("Aqilah");
 
   print(listNama);
 }

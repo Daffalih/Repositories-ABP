@@ -9,9 +9,9 @@ void main() {
 
   var listNama = List.filled(3, "");
 
-  listNama[0] = "Dhimas";
-  listNama[1] = "Hafizh";
-  listNama[2] = "Fathur";
+  listNama[0] = "Daffa";
+  listNama[1] = "Falih";
+  listNama[2] = "Aqilah";
 
   print(listNama);
 }
