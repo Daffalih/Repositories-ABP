@@ -1,0 +1,78 @@
+<!-- Daffa Falih Aqilah - 2311102137 -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Kalkulator Bilangan Ganjil</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .container{
+            background: white;
+            padding: 25px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+            width: 300px;
+            text-align: center;
+        }
+
+        input{
+            width: 80%;
+            padding: 8px;
+            margin-top: 5px;
+        }
+
+        button{
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover{
+            background-color: #2980b9;
+        }
+
+        #hasil{
+            margin-top: 15px;
+            font-weight: bold;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <h2>Jumlah Bilangan Ganjil</h2>
+
+    <label for="min">Min:</label><br>
+    <input type="number" id="min">
+    <br><br>
+
+    <label for="max">Max:</label><br>
+    <input type="number" id="max">
+    <br><br>
+
+    <button onclick="hitung()">Hitung</button>
+
+    <p id="hasil"></p>
+
+</div>
+
+<script src="Exercise1_2311102137_Daffa_Falih_Aqilah.js"></script>
+
+</body>
+</html>

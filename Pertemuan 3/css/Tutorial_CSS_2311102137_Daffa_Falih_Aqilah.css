@@ -1,0 +1,89 @@
+/* Reset Dasar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header */
+header {
+    padding: 20px;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.blue { color: #0081C9; }
+.yellow { color: #FFC436; }
+
+/* Navigasi */
+nav {
+    background-color: #0081C9;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    color: white;
+    padding: 5px 15px;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+
+/* Grid Layout */
+.main-container {
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 250px); /* 2 Kolom */
+    gap: 15px; /* Jarak antar kartu */
+}
+
+/* Perbaikan pada file CSS */
+.card {
+    height: 200px;
+    width: 100%; /* Pastikan kartu memenuhi lebar kolom grid */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Ubah dari flex-start ke center agar icon & teks di tengah */
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.card i {
+    font-size: 3rem; /* Sedikit diperkecil agar tidak meluap */
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 1.5rem;
+}
+
+/* Warna-warna Kartu */
+.green { background-color: #39B54A; }
+.orange { background-color: #F7941D; }
+.red { background-color: #ED1C24; }
+.light-blue { background-color: #00ADEF; }
+.yellow-orange { background-color: #FBB03B; }
+
+/* Responsif untuk HP */
+@media (max-width: 600px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+}
